@@ -83,7 +83,7 @@ class TabShifter(private val ide: Ide) {
             layoutElement = parentSplit
             parentSplit = layout.findParentSplitOf(layoutElement)
         }
-        if (isMaximized) ide.hideAllToolWindows() else ide.restoreToolWindowLayout()
+//        if (isMaximized) ide.hideAllToolWindows() else ide.restoreToolWindowLayout()
     }
 
     fun equalSizeSplitter() {
